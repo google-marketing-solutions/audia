@@ -1,0 +1,25 @@
+# local project configuration
+configuration.env
+.agents/
+GEMINI.md
+prompt.md
+.next/
+.env
+.env.*
+!.env.example
+env.yaml
+*.pem
+*service-account*.json
+
+# local test data and results (see test.sh)
+test_data/
+analyze_result*.json
+
+# node
+node_modules
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+public/
+.DS_Store
